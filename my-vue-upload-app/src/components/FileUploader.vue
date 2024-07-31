@@ -221,10 +221,7 @@ function zoomOut() {
 }
 
 .preview-area {
-  width: 100%;
   margin: 20px 0;
-  height: 600px;
-  overflow: auto;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -239,8 +236,6 @@ function zoomOut() {
 
 .preview-item {
   text-align: center;
-  width: 300px;
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,8 +243,6 @@ function zoomOut() {
 }
 
 .preview {
-  max-width: 300px;
-  max-height: 300px;
   object-fit: contain;
   border: 1px solid #ddd;
   border-radius: 4px;
